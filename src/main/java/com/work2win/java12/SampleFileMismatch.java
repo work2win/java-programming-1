@@ -13,7 +13,7 @@ public class SampleFileMismatch {
         
      
         Files.writeString(file1, "Java 12 Features");
-        Files.writeString(file2, "Java 12 Features");
+        Files.writeString(file2, "Java 12 Feature");
         
        long mismatch = Files.mismatch(file1, file2);
        if(mismatch == -1)
